@@ -52,8 +52,8 @@ body {
 }
 
 .image-container {
-    position: static;
-    top: 60; /* Розміщення контейнера на верху екрану */
+    position: fixed;
+    top: 70; /* Розміщення контейнера на верху екрану */
     left: 50%;
     transform: translate(-50%, 0); /* Центрування по горизонталі */
     width: 100%;
