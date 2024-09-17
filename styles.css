@@ -53,7 +53,7 @@ body {
 
 .image-container {
     position: fixed;
-    top: 75%; /* Змінено з 50% на 70% */
+    top: 60%; /* Змінено з 50% на 70% */
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
