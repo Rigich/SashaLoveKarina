@@ -74,8 +74,8 @@ document.getElementById('yes-btn').addEventListener('click', function() {
 
     // Анимация сближения изображений
     setTimeout(() => {
-        karinaImg.style.transform = 'translate(-150px, 0)'; // Перемещаем влево к центру
-        doroshImg.style.transform = 'translate(150px, 0)'; // Перемещаем вправо к центру
+        karinaImg.style.transform = 'translate(-75px, 0)'; // Перемещаем влево к центру
+        doroshImg.style.transform = 'translate(75px, 0)'; // Перемещаем вправо к центру
 
         // Показываем изображение poc.png, когда два других изображения стоят рядом
         setTimeout(() => {
