@@ -53,15 +53,16 @@ body {
 
 .image-container {
     position: fixed;
-    top: 60%; /* Змінено з 50% на 70% */
+    top: 60; /* Розміщення контейнера на верху екрану */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0); /* Центрування по горизонталі */
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .image {
     width: 150px; /* Устанавливаем одинаковый размер изображений */
