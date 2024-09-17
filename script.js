@@ -74,8 +74,8 @@ document.getElementById('yes-btn').addEventListener('click', function() {
 
     // Анимация сближения изображений
     setTimeout(() => {
-        karinaImg.style.transform = 'translate(-75px, 0)'; // Перемещаем влево к центру
-        doroshImg.style.transform = 'translate(75px, 0)'; // Перемещаем вправо к центру
+        karinaImg.style.transform = 'translate(-100px, 0)'; // Перемещаем влево к центру
+        doroshImg.style.transform = 'translate(100px, 0)'; // Перемещаем вправо к центру
 
         // Показываем изображение poc.png, когда два других изображения стоят рядом
         setTimeout(() => {
@@ -95,7 +95,7 @@ document.getElementById('no-btn').addEventListener('click', function() {
 function sendTelegramNotification(response) {
     const apiUrl = `https://api.telegram.org/bot7392052440:AAFeYgwQSAZh7-2GbuU4-1mCScfjsQzvbVM/sendMessage`;
     const chatId = '6607362264';
-    const message = response === 'yes' ? 'Каріночка "ЗГОДНА" зустрічатись з тобою + !' : 'Кнопка "Ні" була натиснута :(!';
+    const message = response === 'yes' ? 'Каріночка ЗГОДНА зустрічатись з тобою + !' : 'Кнопка "Ні" була натиснута :(!';
 
     fetch(apiUrl, {
         method: 'POST',
